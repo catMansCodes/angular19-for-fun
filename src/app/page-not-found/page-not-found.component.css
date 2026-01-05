@@ -1,0 +1,63 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, #212529, #000);
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.error-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 16px;
+}
+
+.error-code {
+  font-size: 120px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  background: linear-gradient(90deg, #b40b0b, #c93c0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.error-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.error-text {
+  color: #adb5bd;
+  max-width: 520px;
+  margin: 0 auto 24px;
+}
+
+.error-actions .btn {
+  border-radius: 30px;
+  padding: 10px 28px;
+}
+
+footer {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .error-code {
+    font-size: 80px;
+  }
+
+  .error-title {
+    font-size: 22px;
+  }
+}
